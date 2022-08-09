@@ -37,6 +37,7 @@ kotlin {
     infra {
         target("linuxX64")
         target("mingwX64")
+        target("linuxArm64")
 
         common("darwin") {
             target("macosX64")
